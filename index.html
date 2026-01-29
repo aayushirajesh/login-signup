@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in/Sign-up</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create an Account</h1>
+                <div class="socials">
+                    <a href="#" class="social"><img src="facebook.svg" alt="Facebook"></a>
+                    <a href="#" class="social"><img src="google.svg" alt="Google"></a>
+                    <a href="#" class="social"><img src="linkedin.svg" alt="LinkedIn"></a>
+                </div>
+                <span>or use email & password</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign-up</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign-In</h1>
+                <div class="socials">
+                    <a href="#" class="social"><img src="facebook.svg" alt="Facebook"></a>
+                    <a href="#" class="social"><img src="google.svg" alt="Google"></a>
+                    <a href="#" class="social"><img src="linkedin.svg" alt="LinkedIn"></a>
+                </div>
+                <span>or use email & password</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forgot your password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle-panel toggle-left">
+                <h1>Welcome Back!</h1>
+                <p>Enter your details</p>
+                <button class="hidden" id="login">Sign In</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Hello, User!</h1>
+                <p>Register your details</p>
+                <button class="hidden" id="register">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
